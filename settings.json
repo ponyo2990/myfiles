@@ -1,0 +1,19 @@
+{
+    "workbench.colorTheme": "Monokai Dimmed",
+    //"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "files.autoSave": "afterDelay",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
+    "workbench.settings.editor":"json",
+    "workbench.settings.openDefaultSettings": true,
+    //"python.pythonPath": "C:\\Users\\mansingh12\\AppData\\Local\\Programs\\Python\\Python37-32\\python.exe"
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.executorMap": {
+        "python": "python -u $fullFileName"
+    },
+    "code-runner.showExecutionMessage": true,
+    "editor.suggest.localityBonus": true  
+}
