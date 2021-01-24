@@ -14,7 +14,8 @@ logfile $HOME/.screen-logs/%Y%m%d-%n.log
 deflog on
 
 # hard-status line
-hardstatus alwayslastline '%{= kW}%-w%{= kG}[%n %t]%{= kW}%+w%< %{= kW}%-=%d.%m.%Y %c:%s%{-}'
+# hardstatus alwayslastline '%{= kW}%-w%{= kG}[%n %t]%{= kW}%+w%< %{= kW}%-=%d.%m.%Y %c:%s%{-}'
+hardstatus alwayslastline "%{b kw}%H %{r}%1` %{w}| %{g}%c %{w}| %{y}%d.%m.%Y %{w}| %{g}%l %{w}| %{-b kw}%u %-Lw%{= rW}%50> %n%f %t %{-}%+Lw%<"
 
 # enable mouse scroll
 termcapinfo xterm|xterms|xs|rxvt ti@:te@
